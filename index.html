@@ -3,14 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página web</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <h1>¡Hola a todos!</h1>
-    <p>Este es el cuerpo de mi página web.</p>
-    <p id="currentTime"></p>
-    <script src="./js/main.js"></script>
+    <header class="header">
+        <h1 class="header-title">Página web de ejemplo</h1>
+        <nav class="menu">
+            <a href="#" class="menu-item">El proyecto</a>
+            <a href="#" class="menu-item">¿Qué es GitHub?</a>
+            <a href="#" class="menu-item">Los objetivos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about-project" class="section">
+            <h2>El proyecto</h2>
+            <p>Este proyecto es un ejemplo de cómo crear una página web básica utilizando HTML, CSS y JavaScript. Van a realizar la página con estos tres lenguajes de programación, dividiendola en 2 idiomas (inglés, español) y agregando menús y un aplicativo interactivo a realizar.</p>
+        </section>
+        <section id="what-is-github" class="section">
+            <h2>¿Qué es GitHub?</h2>
+            <p>GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. Permite a los desarrolladores trabajar juntos en proyectos, realizar un seguimiento de los cambios y colaborar de manera eficiente. Git y Github son distintos: mientras git controla "los cambios" (verisiones) de forma local (por ejemplo, en tu computadora), GitHub permite compartir y colaborar en estos cambios de forma remota, es decir online como este proyecto actual. <br> Cuando nos referimos a "versiones", son los cambios realizados en un proyecto que se "actualizan" para que puedas verlos (en tu computador o online). <br> Hay términos importantes de comprender para realizar el proyecto, y son aquellos relacionados a subir versiones, agregar comentarios, entre otros.</p>            <ul>
+                <li>Subir cambios: Tras programar debes agregar en la terminal el comando "git add ." para agregar los cambios al área de preparación.</li>
+                <li>Establecer cambios: Cuando ya tienes preparados tus cambios para ser subidos como una nueva versión, haces un "commit", es decir, una "confirmación". Como dice la palabra en inglés, te comprometes (commit) a ese cambio escribiendo el comando "git commit -m Cambie XYZ". Siempre tras el -m pones un espacio y dices que cambiaste.</li>
+                <li>Subir cambios a GitHub: Tras hacer el commit, debes subir los cambios a GitHub con el comando "git push origin main", que és como si tras confirmar lo que realizaste "enviaras el paquete".</li>
+                <li>Ver cambos: Si deseas ver los cambios que realizaste, puedes utilizar el comando "git log" para ver todo el listado de cambios.</li>
+            </ul>
+            <p>En este caso, utilizaremos en todo momento la nube, realizando nuestra página en el espacio de código de GitHub (Codespace) y subiendo todos los cambios a GitHub para que se vea como página mediante la herramienta GitHub Pages.</p>
+        </section>
+        <section id="objectives" class="section">
+            <h2>Los objetivos</h2>
+            <p>El objetivo de este proyecto es que los estudiantes aprendan a crear una página web básica utilizando HTML, CSS y JavaScript, comprendiendo la estructura de un proyecto web y cómo se interrelacionan estos lenguajes. Además, se busca que los estudiantes se familiaricen con el uso de GitHub para el control de versiones y la colaboración en proyectos. <br> La página constará de:</p>
+            <ul>
+                <li>Un menú de navegación con enlaces a las secciones de la página.</li>
+                <li>Contenido en dos idiomas (inglés y español) que se pueda alternar mediante un botón.</li>
+                <li>Un aplicativo interactivo que permita a los usuarios realizar alguna acción o ver algún resultado en la página (bajo tutoría puede ser una calculadora, temporizador o una app meteoreológica.).</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Profesora Angie.</p>
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
