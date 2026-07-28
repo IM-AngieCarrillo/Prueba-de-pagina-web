@@ -1,0 +1,51 @@
+{
+    "header": 
+    {
+        "heeader-title": "Página web de ejemplo",
+        "about-project": "El proyecto",
+        "what-is-github": "¿Qué es GitHub?",
+        "objectives": "Los objetivos",
+        "steps": "Pasos"
+    },
+    "about-project":
+    {
+        "title":"El proyecto",
+        "text":"Este proyecto es un ejemplo de cómo crear una página web básica utilizando HTML, CSS y JavaScript. Van a realizar la página con estos tres lenguajes de programación, dividiendola en 2 idiomas (inglés, español) y agregando menús y un aplicativo interactivo a realizar."
+    },
+    "what-is-github":
+    {
+        "title":"¿Qué es GitHub?",
+        "text1":"GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. Permite a los desarrolladores trabajar juntos en proyectos, realizar un seguimiento de los cambios y colaborar de manera eficiente. Git y Github son distintos: mientras git controla los cambios (verisiones) de forma local (por ejemplo, en tu computadora), GitHub permite compartir y colaborar en estos cambios de forma remota, es decir online como este proyecto actual. <br> Cuando nos referimos a versiones, son los cambios realizados en un proyecto que se actualizan para que puedas verlos (en tu computador o online). <br> Hay términos importantes de comprender para realizar el proyecto, y son aquellos relacionados a subir versiones, agregar comentarios, entre otros.",
+        "li1":"Subir cambios: Tras programar debes agregar en la terminal el comando git add . para agregar los cambios al área de preparación.",
+        "li2":"Establecer cambios: Cuando ya tienes preparados tus cambios para ser subidos como una nueva versión, haces un commit, es decir, una confirmación. Como dice la palabra en inglés, te comprometes (commit) a ese cambio escribiendo el comando git commit -m Cambie XYZ. Siempre tras el -m pones un espacio y dices que cambiaste.",
+        "li3":"Subir cambios a GitHub: Tras hacer el commit, debes subir los cambios a GitHub con el comando git push origin main, que és como si tras confirmar lo que realizaste enviaras el paquete",
+        "li4":"Ver cambos: Si deseas ver los cambios que realizaste, puedes utilizar el comando git log para ver todo el listado de cambios.",
+        "text2":"En este caso, utilizaremos en todo momento la nube, realizando nuestra página en el espacio de código de GitHub (Codespace) y subiendo todos los cambios a GitHub para que se vea como página mediante la herramienta GitHub Pages."
+    },
+    "objetives":
+    {
+        "title":"Los objetivos",
+        "text1":"El objetivo de este proyecto es que los estudiantes aprendan a crear una página web básica utilizando HTML, CSS y JavaScript, comprendiendo la estructura de un proyecto web y cómo se interrelacionan estos lenguajes. Además, se busca que los estudiantes se familiaricen con el uso de GitHub para el control de versiones y la colaboración en proyectos. La página constará de:",
+        "li1":"Un menú de navegación con enlaces a las secciones de la página.",
+        "li2":"Contenido en dos idiomas (inglés y español) que se pueda alternar mediante un botón.",
+        "li3":"Un aplicativo interactivo que permita a los usuarios realizar alguna acción o ver algún resultado en la página (bajo tutoría puede ser una calculadora, temporizador o una app meteoreológica)."
+    },
+    "steps":
+    {
+        "title":"Pasos a seguir",
+        "text1":"Primero configuraremos el espacio de programación.",
+        "li1":"1. Crear una cuenta de GitHub con outlook.",
+        "li2":"2. Tras esto, ir a repositorios. Creamos uno nuevo con una visibilidad pública y sin README.",
+        "li3":"3. Al crear nuestro repositorio le daremos a la opción de crear un archivo nuevo debajo de la ventana de Quick Setup.",
+        "li4":"4. Allí nos permitirá crear distintos archivos. Entraremos un momento a One Compiler y allí le daremos a la opción de HTML5.",
+        "li5":"5. Volviendo a Github crearemos tres archivos nuevos: <br> Primero haremos un archivo para el código de HTML nombrándolo index.html y le copiamos el código de OneCompiler. Tras esto aparecerá una ventana que nos perdirá confirmar (commit) nuestra creación y le daremos commit changes (opción en verde). Después crearemos un archivo styles.css y copiaremos el código de OneCompiler -> styles.css en el archivo, y confirmaremos (commit) nuestro cambio. Por último, crearemos un archivo script.js y copiaremos de OneCompiler -> script.js el código.",
+        "li6":"6. Con nuestros 3 archivos preparados nos iremos a settings (ajustes) y allí veremos las configuraciones que podemos hacer a nuestro proyecto. Le daremos en Code, Planning and Automation y a la última opción Pages.",
+        "li7":"7. Allí estará casi todo configurado para hacer una página estática en GitHub. Lo que haremos será darle click en branch (que es la rama de nuestro código) y le daremos a main, tras esto se clickea save y se guardará nuestra página.",
+        "li8":"8. Finalmente, cuando cargue la configuración que realizamos le daremos click al enlace y comprobaremos que la página se vea como se ve en OneCompiler. Si sí lo hace ¡Excelente! Esta funcionando nuestra página y ya podemos empezar a programar.",
+        "text2":"Tras configurar el espacio, necesitamos ahora crear el entorno de programación, llamo en GitHub Codespace.",
+        "li9":"1. Volveremos a la sección de Code y le daremos a la opción verde que dice Codespace. Se abrirá un menú y le daremos a la opción verde que dice Crear un codespace en main. Así, se abrirá una ventana de programación en Línea de Visual Studio Code.",
+        "li10":"2. Con nuestro espacio abierto, podremos realizar las modificaciones al código que queramos siguiendo las instrucciones de la docente y del videotutorial. Para guardar cambios y que sean visibles en nuestra página, tendremos que: Primero: Tras asegurarnos que todo está en orden, escribiremos en la terminal git add . y le damos a la tecla ENTER, con esto estamos diciendole a GitHub que deseamos cambiar algo. Segundo: Crearemos nuestra confirmación escribiendo el comando git commit -m Cambio XYZ y mencionamos que cambiamos dentro de nuestro espacio, como por ejemplo (Agregué información al HTML) y le damos ENTER. Finalmente, mandaremos toda la información a nuestra rama principal (main) con el comando git push origin main y así podremos mandar ese código oficialmente. Tendremos que esperar un poco a que cargue y luego entramos al enlace que nos arrojó GitHub para comprobar que todo se ve en nuestra página como queremos.",
+        "li11":"3. Finalmente, si tenemos algún error, en la terminal escribiremos git log --online que nos permitirá ver todos los avances que hicimos. Si queremos volver a una versión anterior por algún error crítico, en ese listado que nos aparece escribiremos el código amarillo de 6 carácteres (números y letras) en la terminal escribiremos git reset --hard CODIGO6 (en CODIGO6 es donde copiamos el código de 6 carácteres).",
+        "text3":"¡Felicidades! Con estos 11 pasos ya estarás programando. Espero esta página de ejemplo les sea útil para comprender el trabajo que realizaremos este periodo, que será para el Día de las Ciencias."
+    }
+}

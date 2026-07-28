@@ -1,0 +1,51 @@
+{
+  "header": 
+  {
+    "heeader-title": "Sample Web Page",
+    "about-project": "The Project",
+    "what-is-github": "What is GitHub?",
+    "objectives": "Objectives",
+    "steps": "Steps"
+  },
+  "about-project": 
+  {
+    "title": "The Project",
+    "text": "This project is an example of how to create a basic webpage using HTML, CSS, and JavaScript. You will build the page using these three programming languages, dividing it into 2 languages (English, Spanish) and adding menus along with an interactive app to be developed."
+  },
+  "what-is-github": 
+  {
+    "title": "What is GitHub?",
+    "text1": "GitHub is a collaborative software development platform used to host projects using the Git version control system. It allows developers to work together on projects, track changes, and collaborate efficiently. Git and GitHub are different: while Git tracks changes (versions) locally (for example, on your computer), GitHub allows you to share and collaborate on these changes remotely, meaning online like this current project. <br> When we refer to versions, we mean the changes made to a project that are updated so you can view them (on your computer or online). <br> There are important terms to understand when building the project, specifically those related to uploading versions, adding comments, among others.",
+    "li1": "Uploading changes: After coding, you must enter the command git add . in the terminal to add the changes to the staging area.",
+    "li2": "Staging changes: Once your changes are ready to be uploaded as a new version, you make a commit (a confirmation). As the English word suggests, you commit to that change by typing the command git commit -m I changed XYZ. Always leave a space after -m and state what you changed.",
+    "li3": "Uploading changes to GitHub: After making the commit, you must upload the changes to GitHub using the command git push origin main, which is like sending the package after confirming what you did.",
+    "li4": "Viewing changes: If you want to view the changes you made, you can use the command git log to see the full list of changes.",
+    "text2": "In this case, we will use the cloud at all times, building our page inside GitHub's code environment (Codespace) and pushing all changes to GitHub so it can be viewed as a webpage using GitHub Pages."
+  },
+  "objetives": 
+  {
+    "title": "Objectives",
+    "text1": "The goal of this project is for students to learn how to create a basic webpage using HTML, CSS, and JavaScript, understanding the structure of a web project and how these languages interact. Additionally, it aims to familiarize students with using GitHub for version control and project collaboration. The page will consist of:",
+    "li1": "A navigation menu with links to the different sections of the page.",
+    "li2": "Content in two languages (English and Spanish) that can be toggled using a button.",
+    "li3": "An interactive app that allows users to perform an action or view a result on the page (under guidance, this could be a calculator, timer, or weather app)."
+  },
+  "steps": 
+  {
+    "title": "Steps to Follow",
+    "text1": "First, we will set up the coding environment.",
+    "li1": "1. Create a GitHub account using Outlook.",
+    "li2": "2. After this, go to repositories. Create a new one with public visibility and without a README.",
+    "li3": "3. Upon creating our repository, click the option to create a new file located under the Quick Setup window.",
+    "li4": "4. There, it will allow us to create different files. Go to One Compiler for a moment and select the HTML5 option.",
+    "li5": "5. Returning to GitHub, we will create three new files: <br> First, make a file for the HTML code named index.html and paste the code from OneCompiler into it. A window will then appear asking us to confirm (commit) our creation; click commit changes (the green option). Next, create a styles.css file, copy the code from OneCompiler -> styles.css into the file, and commit your change. Finally, create a script.js file and copy the code from OneCompiler -> script.js.",
+    "li6": "6. With our 3 files ready, go to settings, where we will see the configurations we can apply to our project. Click on Code, Planning and Automation and select the last option, Pages.",
+    "li7": "7. Almost everything will be pre-configured there to create a static page on GitHub. Click on branch (which is the branch of our code) and select main; then click save to store our page.",
+    "li8": "8. Finally, once the configuration finishes loading, click the link to verify that the page looks the same as it does in OneCompiler. If it does, excellent! Our page is working and we can start coding.",
+    "text2": "After configuring the space, we now need to create the coding environment, called Codespace in GitHub.",
+    "li9": "1. Return to the Code section and click the green option that says Codespace. A menu will open; click the green option that says Create a codespace on main. This will open an online Visual Studio Code coding environment.",
+    "li10": "2. With our workspace open, we can modify the code as needed following the teacher's and video tutorial's instructions. To save changes and make them visible on our page, we need to: First, after ensuring everything is in order, type git add . in the terminal and press ENTER (this tells GitHub we want to make a change). Second, create our confirmation by typing the command git commit -m Change XYZ and mention what was changed inside our workspace, such as (Added information to HTML), then press ENTER. Finally, send all the information to our main branch with the command git push origin main to officially push the code. Wait a short moment for it to load, then open the link provided by GitHub to confirm that everything appears on our page as intended.",
+    "li11": "3. Finally, if any errors occur, type git log --oneline in the terminal to view all past commits. If you need to roll back to a previous version due to a critical error, locate the 6-character code (numbers and letters) in that list and type git reset --hard CODE6 in the terminal (replacing CODE6 with your copied 6-character code).",
+    "text3": "Congratulations! With these 11 steps, you are now coding. I hope this sample page helps you understand the work we will be doing this term for Science Day."
+  }
+}
