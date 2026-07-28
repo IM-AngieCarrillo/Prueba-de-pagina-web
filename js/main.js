@@ -6,7 +6,7 @@ const textsToChange = document.querySelectorAll("[data-section]");
 langButtons.forEach((button) => {
 //confirmar que si funcione escuchando en console
 	//console.log(button.dataset.language);
-	fetch('../languages/${button.dataset.language}.json')
+	fetch(`../languages/${button.dataset.language}.json`)
 	.then(res=> res.json())
 	//.then(data => console.log(data))
 	.then(data => {
@@ -14,7 +14,7 @@ langButtons.forEach((button) => {
 			const section = el.dataset.section;
 			const value = el.dataset.value;
 			el.innerHTML = data[section][value];
-			
+
 		})
 	})
 })
