@@ -2,7 +2,7 @@
 Margin: 0;
 Padding: 0;
 box-sizing: border-box;
-font-family: system-ui, times-new-roman;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, system-ui;
 }
 
 body {
