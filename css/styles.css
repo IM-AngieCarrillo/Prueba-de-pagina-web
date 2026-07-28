@@ -20,6 +20,18 @@ body {
     padding: 1rem 2rem;
 }
 
+.languages {
+    display: flex;
+    gap: .5rem;
+}
+
+.lang-button {
+    background-color: transparent;
+    font-size: 1.25rem;
+    border: 0;
+    cursor: pointer;
+}
+
 .section {
     padding-inline: 2rem;
     margin-top: 2rem;
