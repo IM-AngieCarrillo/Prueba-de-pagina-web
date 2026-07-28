@@ -1,8 +1,8 @@
 * {
-Margin: 0;
-Padding: 0;
-box-sizing: border-box;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, system-ui;
+   margin: 0; /*Margin son las márgenes de la pag */
+   padding: 0; /*Padding es el espacio de relleno pero dentro de un elemento: entre el contenido y el borde*/
+   box-sizing: border-box; /*Es un calculo del tamaño total del elemento */
+   font-family: sans-serif, system-ui; 
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 
 .header {
     background-color: pink;
-    display: flex;
+    display: flex; /*Display define como se muestra un elemento, al ponerlo en flex estamos diciendo que hay que distribuir los elementos de forma que se "estiren" (flex) de la forma más organizada según el tamaño de la pantalla donde se vea. */
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
